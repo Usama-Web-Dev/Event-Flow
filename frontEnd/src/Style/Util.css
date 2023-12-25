@@ -1,0 +1,154 @@
+/* Margin------*/
+.mt-1 {
+  margin-top: 20px !important;
+}
+.mt-2 {
+  margin-top: 30px !important;
+}
+.mt-3{
+  margin-top: 10px !important;
+}
+.mt-4{
+  margin-top: 100px !important;
+}
+.mb-1 {
+  margin-bottom: 10px !important;
+}
+.mb-2 {
+  margin-bottom: 30px !important;
+}
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.ml-1 {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+/* Padding------*/
+.p-3{
+  padding: 30px !important;
+}
+.p-5{
+   padding: 50px !important;
+}
+/* Center---*/
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left !important;
+}
+
+/* Width------*/
+.w-25 {
+  width: 25% !important;
+}
+.w-40 {
+  width: 40% !important;
+}
+.w-50 {
+  width: 50% !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+/* Height------*/
+.h-1{
+  height: 100 !important;
+}
+.h-2{
+  height: 200 !important;
+}
+.h-3{
+  height: 300 !important;
+}
+
+/*flex properties----*/
+.d-flex-vh-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex-v-center{
+  display: flex;
+  justify-content: center;
+}
+
+/*Icon Font-Size----*/
+.fa-2x {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/*Shadow*/
+.shadow {
+  /* box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75); */
+  /* box-shadow: 0px -4px 38px -19px rgba(0, 0, 0, 0.81);
+  -webkit-box-shadow: 0px -4px 38px -19px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: 0px -4px 38px -19px rgba(0, 0, 0, 0.81); */
+
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+/*Background-color-----*/
+.bg-white{
+  background-color: white !important;
+}
+
+/*Gradient-----*/
+.bg-gradient{
+  background: #F9FAFC;
+}
+
+/*For error ------*/
+.error {
+  color: red;
+  font-size: 12px;
+}
+.danger{
+  color: red;
+}
+.green{
+  color: green;
+}
+/*Font-Weight-----*/
+.fw-bold{
+    font-weight: 600;
+}
+.fw-bolder{
+    font-weight: 800;
+}
+button{
+  cursor: pointer;
+}
+
+/**/
+.b {
+  border: 2px solid black;
+}
+.r {
+  border: 2px solid rgb(255, 2, 2);
+}
+
+/*
+
+*/
+.center-bg{
+  width: 75%;
+  margin: auto;
+  background: white;
+}
+
+.display-center{
+ width: 100%;
+ height: 100vh;
+ display: grid;
+ place-items: center;
+
+}

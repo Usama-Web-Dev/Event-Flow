@@ -1,0 +1,74 @@
+/* Topheader ----*/
+.top-header-submenu {
+  text-align: center !important;
+  padding-left: 0px !important;
+  padding-inline: 0px !important;
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.top-header-menu div {
+  padding-left: 0px !important;
+  margin-block: 0px !important;
+}
+
+.top-header-menu div i {
+  left: 80%;
+  border-inline-end: none;
+}
+/*sidebar -----*/ 
+.admin-logo {
+  width: 40% !important;
+  height: 40% !important;
+}
+
+.ant-layout .ant-layout-sider-children{
+  background-color: white !important;
+  border-right: 0.1px solid #eeecec !important;
+}
+
+
+.ant-menu-dark{
+  
+  color: black !important;
+  background: white !important;
+}
+
+.ant-layout-sider-trigger{
+
+  background: #3954E4 !important;
+}
+
+
+:where(.css-dev-only-do-not-override-u6lna9).ant-layout {
+ 
+  background: #F9FAFC!important;
+}
+.ant-layout-footer
+{
+  background: #F9FAFC !important;
+}
+
+.ant-layout-header{
+  border-bottom: 0.1px solid #eeecec !important;
+}
+:where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline, :where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark>.ant-menu.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  background: ghostwhite !important;
+}
+
+:where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark.ant-menu-submenu>.ant-menu, :where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark>.ant-menu.ant-menu-submenu>.ant-menu {
+  background-color: ghostwhite !important;
+  color: black !important;
+}
+:where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark .ant-menu-item a, :where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark>.ant-menu .ant-menu-item a, :where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark .ant-menu-item a:hover, :where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark>.ant-menu .ant-menu-item a:hover {
+  color: black !important;
+}
+.anticon {
+color: black !important;
+}
+.ant-menu-title-content{
+  color: black !important;
+}
+:where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark .ant-menu-submenu-selected >.ant-menu-submenu-title, :where(.css-dev-only-do-not-override-1msiv07).ant-menu-dark>.ant-menu .ant-menu-submenu-selected >.ant-menu-submenu-title {
+  color: black !important;
+}

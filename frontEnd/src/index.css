@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.link {
+  text-decoration: none;
+  color: blue;
+}
+.submit-button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(90, 131, 241);
+  color: white;
+}
+
+/* Cards------------ */
+.card-section {
+  padding-top: 20px;
+}
+.card-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cardCol {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border: 1px solid rgb(232, 222, 222);
+  padding: 10px;
+  border-radius: 10px;
+  width: 24%;
+}
+.card-padding{
+  padding: 5px;
+}
+.cardCol:hover {
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-title{
+  font-size: 17px;
+  font-weight: bold;
+}
+.card-survey{
+  color: green;
+}
+.card-questions{
+  color: purple;
+}
+.card-categorie{
+  color: #370ac3;
+}
+.card-responces{
+  color: #fe7f2d;
+}
+.card-stats{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stats{
+  background-color: rgb(220, 218, 226);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.char-section {
+  padding-top: 50px;
+}
+
+.admin-from-img {
+  width: 60px !important;
+  height: 60px !important;
+  border: 60px;
+}
+.ant-card-head{
+background-color: #517edf !important;
+}
+.ant-card-head-title{
+  color: #f7f7f2;
+}
+/* .shadow {
+  padding: 50px;
+  box-shadow: 0px 2px 33px -1px rgba(0, 0, 0, 0.87);
+  -webkit-box-shadow: 0px 2px 33px -1px rgba(0, 0, 0, 0.87);
+  -moz-box-shadow: 0px 2px 33px -1px rgba(0, 0, 0, 0.87);
+} */
+.pChart{
+  padding: 10px;
+}
+.borderPrimary{
+  border: 1px solid rgb(211, 205, 205);
+}
+.p-10{
+  padding: 10px;;
+}
+.wrapperRow{
+  display: flex;
+  flex-direction: column;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.selectField{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 3px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 16px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+   display: flex;
+  border-radius: 6px;
+}
+.space-between{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pageNotFound{
+  display: flex;
+  width: 100%;
+  justify-content:flex-end;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+.tableImage{
+  width: 30px;
+}
+.ql-container{
+  min-height: 200px;
+}
+.ql-editor{
+  min-height: 200px;
+ background-color: #f7f7f2;
+  background-color: #f7f7f2;
+}
+.ql-snow .ql-editor img {
+  max-width: 350px !important;
+}
+.copyClipboard{
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.viewQuestions{
+  padding: 0px 2px;
+  border: none;
+  background-color: rgb(235, 237, 232);
+  border-radius: 5px;
+
+}
+.editCategory::placeholder{
+  color: #517edf;
+}
+editCategoryy::placeholder{
+  color: green;
+}
+.inviteModel{
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(201, 250, 217);
+}
+.deleteModel{
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(242, 196, 196);
+}
+.editModel{
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(206, 217, 248);
+}
+/* .ql-picker.ql-font .ql-picker-label[data-value="Mirza"]::before
+{
+  font-family: 'Mirza', cursive;
+     content: "Mirza";
+} */
+
+.pawd-col{
+  padding-top: 30px;
+}
+.pawd-btn{
+  background-color: rgb(126, 35, 211);
+  color: white;
+}
+
+.f-password{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.sign-up{
+  padding-top: 10px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+img {
+  max-width: 350px;
+}
+
+.ant-btn-primary:hover {
+  color: rgb(255 255 255 / 88%) !important;
+  background-color: #305a54 !important;
+}
+
+.ant-btn {
+ 
+  width: 120px;
+}
+.ant-card-bordered{
+  border: 1px solid #CCCCCC !important;
+}
+.ant-card-body{
+  height: 350px !important;
+}
